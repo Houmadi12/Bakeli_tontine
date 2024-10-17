@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: #EDEDEE;
+  /* max-height: 120vh; */
+  /* overflow-y: hidden; */
+}
+
+.text-font{
+  font-family: "Lexend Deca",Arial, Helvetica, sans-serif
+}
+
+.color-bg {
+  background: #093545;
+}
+
+.input {
+  background: #093545;
+  height: 50px;
+}
+
+.input:focus{
+  background: #093545;
+}
+
+.input::placeholder{
+  color: white;
+}
+
+.bg-card,
+#cardBg{
+  background: #20DF7F !important;
+}
+
+.button-bg{
+  background: #20DF7F;
+  height: 50px;
+}
+
+.button-bg:hover{
+  background: #4df09e;
+  color: #224957;
+}
+
+.color-text {
+  color: #224957;
+}
+
+.profil-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.bx-sha {
+  box-shadow: rgba(167, 160, 160, 0.45) 0px 0px 0px 3px;
+}
+
+.list:hover{
+  cursor: pointer;
+}
+
+.list li.active{
+  background: #20DF7F;
+  border-left: 6px solid white;
+}
+
+.text-titre{
+  font-size: 15px;
+}
+
+.span-info{
+  font-size: 15px;
+}
+
+.card-img {
+  width: 78px;
+  height: 87px;
+}
+
+.fontSz-caisse{
+  font-size: 13px;
+}
+
+.height-progress{
+  height: 7%;
+}
+
+.main {
+  max-height: 100vh;
+  overflow: scroll;
+  z-index: 0;
+}
+
+.classe {
+  overflow-y: scroll;
+}
+
+.part {
+  margin-top: 140px;
+}
+
+#textBloc{
+  color: white;
+}
+
+#color {
+  color: red;
+}
+
+.btn-ajout:hover{
+  background: #093545;
+}
+
+.w-15 {
+  width: 80px;
+  display: flex;
+  font-size: 50px;
+  border-radius: 20%;
+  background-color: gainsboro;
+  color: #20DF7F;
+}
+
+.no-focus-border:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.no-focus-border:active {
+  border-color: transparent !important;
+}
+
+.no-focus-border::after {
+  background-color: white !important;
+  border-radius: 100%;
+}
+
+a {
+  text-decoration: none; /* Enlève le soulignement */
+}
+
+.profil-param{
+   border-radius: 100%;
+   height: 130px;
+   width: 130px;
+   border: 6px solid #20DF7F80;
+}
+
+.btn-p:hover{
+  background: #093545;
+}
+
+.h-2{
+  background: #EDEDEE;
+  height: 2px;
+  max-width: 50%;
+}
+
+.form-group input {
+  height: 30px;
+  border: 1px solid #093545;
+}
+
+.text-color {
+  color: #20DF7F;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: 0px !important;
+}
